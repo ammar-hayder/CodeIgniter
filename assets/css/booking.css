@@ -1,0 +1,220 @@
+.booking .header,.drivers_onboard .header,.drivers_waiting .header,.job_queue .header {
+	background-color: #ccc;
+	padding: 5px 0px;
+	text-align:center;
+	color:#494949;
+	font-weight:bold;
+}
+
+/*==================== BOOKING BOX ====================*/
+.booking {
+	width: 498px;	height: 319px;	overflow: hidden;	float: left;	border-right: 1px solid #c2c2c2;	border-bottom: 1px solid #c2c2c2;
+}
+
+.booking table {
+	font-size: 11px;	margin-top: 5px;	margin-left: 5px;
+}
+
+.booking table td {
+	padding: 2px;
+}
+
+.destination {
+	width: 480px;	height: 90px;	overflow: hidden;	float: left;
+}
+
+.destination .list_heading {
+
+}
+
+.destination .list_heading table {
+	border-top: 1px solid #969696;	border-left: 1px solid #969696;	border-collapse: collapse;	width: 100%;	font-size: 11px;	background-color: #EDEAEA;	margin-left: 0px;	margin-top: 0px;
+}
+
+.destination .list_heading table td {
+	border-bottom: 1px solid #969696;	border-right: 1px solid #969696;	border-collapse: collapse;	padding: 3px;	font-weight: bold;
+}
+
+.destination .list {
+	height: 70px;	overflow: auto;
+}
+
+.destination .list table {
+	border-collapse: collapse;	width: 100%;	font-size: 11px;	border-left: 1px solid #969696;	margin-left: 0px;	margin-top: 0px;
+}
+
+.destination .list table td {
+	border-bottom: 1px solid #969696;	border-right: 1px solid #969696;	border-collapse: collapse;	padding: 3px;
+}
+
+.destination .list table tr:hover {
+	background-color: #FFFFD5;
+}
+
+.destination_buttons {
+	width: 30px;	float: left;	overflow: hidden;
+}
+
+/*==================== DRIVERS ON BOARD ====================*/
+.drivers_onboard {
+	width: 461px;	height: 150px; /* 299 */	overflow: hidden;	float: left;	border-bottom: 1px solid #c2c2c2;
+}
+
+.drivers_onboard .list_heading {
+}
+
+.drivers_onboard .list_heading table {
+	border-left: 1px solid #969696;	border-collapse: collapse;	width: 100%; font-size: 11px;	background-color: #EDEAEA;
+}
+
+.drivers_onboard .list_heading table td {
+	border-bottom: 1px solid #969696;	border-right: 1px solid #969696;	border-collapse: collapse;	padding: 3px;	font-weight: bold;
+}
+
+.drivers_onboard .list {
+	height: 125px;	overflow: auto;
+}
+
+.drivers_onboard .list table {
+	border-collapse: collapse;	width: 100%;	font-size: 11px;	margin-left: 1px;
+}
+
+.drivers_onboard .list table td {
+	border-bottom: 1px solid #969696;	border-right: 1px solid #969696;	border-collapse: collapse;	padding: 3px;
+}
+
+.drivers_onboard .list table tr:hover {
+	background-color: #FFFFD5;
+}
+
+/*==================== DRIVERS WAITING ====================*/
+.drivers_waiting {
+	width: 449px;	height: 168px; /* 299 */	overflow: hidden;	float: left;	border-bottom: 1px solid #000;
+}
+
+.drivers_waiting .list_heading {
+
+}
+
+.drivers_waiting .list_heading table {
+	border-left: 1px solid #969696;	border-collapse: collapse;	width: 100%;	font-size: 11px;	background-color: #EDEAEA;
+}
+
+.drivers_waiting .list_heading table td {
+	border-bottom: 1px solid #969696;	border-right: 1px solid #969696;	border-collapse: collapse;	padding: 3px;	font-weight: bold;
+}
+
+.drivers_waiting .list {
+	height: 143px;	overflow: auto;
+}
+
+.drivers_waiting .list table {
+	border-collapse: collapse;	width: 100%;	font-size: 11px;	margin-left: 1px;
+}
+
+.drivers_waiting .list table td {
+	border-bottom: 1px solid #969696;	border-right: 1px solid #969696;	border-collapse: collapse;	padding: 3px;
+}
+
+.drivers_waiting .list table tr:hover {
+	background-color: #FFFFD5;
+}
+
+/*==================== JOB QUEUE ====================*/
+.job_queue {
+	width: 100%;	height: 210px;	float: left;	overflow: hidden;
+}
+
+.job_quque .list_heading {
+
+}
+
+.job_queue .list_heading table {
+	border-left: 1px solid #969696;	border-collapse: collapse;	width: 100%;	font-size: 11px;	background-color: #EDEAEA;
+}
+
+.job_queue .list_heading table td {
+	border-bottom: 1px solid #969696;	border-right: 1px solid #969696;	border-collapse: collapse;	padding: 3px;	font-weight: bold;
+}
+
+.job_queue .list {
+	height: 165px;	overflow: auto;
+}
+
+.job_queue .list table {
+	border-collapse: collapse;	width: 100%;	font-size: 11px;
+}
+
+.job_queue .list table td {
+	border-bottom: 1px solid #969696;	border-right: 1px solid #969696;	border-collapse: collapse;	padding: 3px;}
+
+.job_queue .list table tr:hover {
+	background-color: #FFFFD5;
+}
+
+/*==================== FORM CSS ====================*/
+.textbox {
+	font-size: 11px;	font-family: Tahoma, Geneva, sans-serif;
+}
+
+#pickup_button,#destination_button,#move_up,#move_down,#delete_destination {
+	border: 0px;	width: 16px;	height: 16px;
+}
+
+#pickup_button:hover,#destination_button:hover,#move_up:hover,#move_down:hover,#delete_destination:hover{
+	border: 0px;	cursor: pointer;	width: 16px;	height: 16px;	background-color: #E5E5E5;
+}
+
+#pickup_button {
+	background: url(../images/pickup.png);
+}
+
+#destination_button {
+	background: url(../images/destination.png);
+}
+
+#move_up {
+	background: url(../images/move_up.png);	margin: 0px 0px 10px 10px;
+}
+
+#move_down {
+	background: url(../images/move_down.png);	margin: 0px 0px 10px 10px;
+}
+
+#delete_destination {
+	background: url(../images/delete_destination.png);	margin: 0px 0px 10px 10px;
+}
+
+.delete_destination {
+	display: block;	background: url(../images/delete_destination.png);	width: 16px;	height: 16px;	float: right;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.total_amount {
+	float: right;	font-size: 13px;	font-weight: bold;	width: 100px;	background-color: #D7FBD8;	text-align: center;	margin-top: 2px;	padding: 3px 5px;	line-height: 20px;
+}
+
+#addjob_button {
+	height: 30px;	margin: 10px 10px;	float: right;	font-weight: bold;
+}
+
+#pickup_address {
+	background-color: #D7FBD8;
+}
+
+
+.dragHandle{
+	width:20px;
+	border-right:none !important;
+}
+
+td.showDragHandle {
+	background-image: url(../images/updown2.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	cursor: move;
+}
+

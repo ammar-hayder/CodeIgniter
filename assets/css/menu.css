@@ -1,0 +1,101 @@
+.sm2_move, .sm2_delete, .sm2_addChild, .sm2_pub, .sm2_workFlow {display: block; float: left; width: 16px; height: 16px; text-indent: -5000px; margin: 0 1px 0 0; background: url(../images/sm2_move.png) top left no-repeat;}
+.sm2_actions * {cursor: pointer;}
+.sm2_pub, .sm2_workFlow {float: right; margin: 0 1px 0 0;}
+.sm2_move {background-image: url(../images/sm2_move.png);}
+.sm2_delete {background-image: url(../images/sm2_delete.png);}
+.sm2_addChild {background-image: url(../images/sm2_addChild.png);}
+.sm2_pub {background-image: url(../images/sm2_unpub.png);}
+.sm2_workFlow {background-image: none;}
+
+
+.sitemap_undo { float:right; }
+
+#sitemap, #dragHelper {display: block; margin: 0; list-style: none;}
+#dragHelper { background: #eee;}
+#sitemap ul, #dragHelper ul {font-size: 1em; list-style: none;}
+#sitemap li, #dragHelper li {display: block; width: 100%; display: block; clear: both; border-top: 1px solid #eee; border-left: 1px solid #eee; border-right: 1px solid #eee; }
+#sitemap dl, #dragHelper div {position: relative; display: block; min-height: 19px;  padding-top: 1px;}
+#sitemap dt, #dragHelper dt {float: left; font-weight: bold; font-size: 1.1em; line-height: 1em; margin-left: 16px; padding: 0 0 0 1px;}
+#sitemap dd, #dragHelper dd {float: left;}
+#sitemap .sm2_actions, #dragHelper .sm2_actions {display: none; padding: 3px 2px 0 5px;}
+#sitemap .sm2_status, #dragHelper .sm2_status {position: absolute; top: 3px; right: 0;}
+
+#sitemap dl:hover dd, #sitemap dd:hover {display: block;}
+#sitemap dd strong, #dragHelper dd strong {display: none;}
+#sitemap a, #dragHelper a {border: none;}
+#sitemap .sm2_expander, #dragHelper .sm2_expander {position: absolute; left: 0; top: 4px;}
+
+#sitemap .sm2_liOpen, #dragHelper .sm2_liOpen {background: url(../images/sm2_li.gif) left repeat-y;}
+#sitemap .sm2_liOpen > dl > .sm2_expander, #dragHelper .sm2_liOpen > dl > .sm2_expander {display: block; width: 15px; height: 1em; background: url(../images/excol_open.gif) 50% 50% no-repeat;}
+#sitemap .sm2_liClosed > dl > .sm2_expander, #dragHelper .sm2_liClosed > dl > .sm2_expander {display: block; width: 15px; height: 1em; background: url(../images/excol_closed.gif) 50% 50% no-repeat;}
+#sitemap .sm2_liClosed ul, #dragHelper .sm2_liClosed ul {display: none;}
+
+
+#sortHelper {height: 1px !important; background: #000; margin: 0 !important; padding: 0; position: relative; z-index: 100;}
+#sortHelper + li {margin-top: 0;}
+
+#dropMenu {background: #333; color:#eee; position:absolute; display:none; z-index:1000;}
+#dropMenu ul {list-style:none; margin:0; padding:0; text-indent:0;}
+#dropMenu li {margin:0; padding:5px 10px; width:100px; cursor:pointer; font-weight:bold;}
+
+#sitemap .dropzone { height:6px; background-color:#fff; border-bottom:4px solid #fff; }
+
+
+
+
+
+/*  Typography
+--------------------------------------------------------------------------------------*/
+.page2 a {color:#616161;  text-decoration: none; border-bottom: 1px solid #c2c7c8; }
+.page2 a.buttonclick {border-bottom: none;}
+.page2 a:hover {color: #000; border-color: #9fa5a6;}
+.page2 a:visited {}
+.page2 ul {margin: 0 0 1em 1.2em;} 
+.page2 ol {margin: 0 0 1em 1.6em;}
+.page2 ul ul, .page2 ol ul {margin: 0 0 0 1.2em; font-size: 0.95em;}
+.page2 ul ol, .page2 ol ol {margin: 0 0 0 1.6em; font-size: 0.95em;}
+.imgLeft {margin: 0 0.8em 0.8em 0; border: 1px solid #ddd; padding: 2px; border-right-color: #bbb; border-bottom-color: #bbb; background: #f6f6ec;}
+.imgLeftWrap {float: left; margin: 0 0.8em 0.8em 0; border: 1px solid #ddd; padding: 2px; border-right-color: #bbb; border-bottom-color: #bbb; background: #f6f6ec;}
+.imgRightWrap {float: right; margin: 0 0 0.8em 0.8em; border: 1px solid #ddd; padding: 2px; border-right-color: #bbb; border-bottom-color: #bbb; background: #f6f6ec;}
+.imgLeft img, .imgLeftWrap img, .imgRightWrap img {padding: 0; margin: 0;}
+.imgLeft p, .imgLeftWrap p, .imgRightWrap p {padding: 0.5em; margin-bottom: 0; color: #777; font-size: 0.95em;}
+
+
+
+.add_menu_link{
+	/*
+	display:block;
+	float:left;
+	padding:0px 3px 0px 18px;
+	margin:10px 0px 10px 0px
+	*/
+	margin:5px 0px 15px 5px;
+	height:17px;
+	padding:6px 5px 1px 26px;
+	display:block;
+	color:#5b5b5b;
+	font-size:13px;
+	font-weight:bold;
+	float:left;
+	background: url(../images/new_link.png) left no-repeat;
+	text-decoration:none;
+}
+
+.add_menu_link{
+	text-decoration:none;
+	color:#0049ac;
+	font-weight:bold;
+	font-size:12px;
+}
+
+#addChildForm{
+	width:300px;
+	margin-left:100px;
+	font-size:11px;
+	margin:0px 10px;
+}
+
+#addChildForm .textbox{
+	font-size:12px;
+}
+

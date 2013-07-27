@@ -1,0 +1,158 @@
+#dispatch-wrapper{
+	width:975px;
+	margin:0px auto;
+	overflow:hidden;
+}
+
+/*=================== DRIVERS ON JOB + DRIVERS WAITING ======================*/
+#dispatch-left{
+	width:480px;
+	height:210px;
+	float:left;
+	margin-right:15px;
+	margin-bottom:10px;
+}
+
+#dispatch-left table, #dispatch-right table{
+	border:0px; margin:0px; padding:0px; width:92%; line-height:14px; font-size:11px; float:left;
+}
+
+#dispatch-left div.tablescroll, #dispatch-right div.tablescroll{
+	margin:5px;
+}
+
+#dispatch-right{
+	width:480px;
+	height:210px;
+	float:left;
+	margin-bottom:15px;
+}
+#dispatch-wrapper #dispatch-left fieldset{
+	border:1px solid #c2c2c2;
+	height:100%;
+}
+
+#dispatch-wrapper #dispatch-right fieldset{
+	border:1px solid #c2c2c2;
+	height:100%;
+}
+
+#dispatch-wrapper #dispatch-left fieldset legend, #dispatch-wrapper #dispatch-right fieldset legend{
+	margin-left:10px;
+	padding:0px 5px;
+	color:#666666;
+	font-weight:bold;
+	font-size:12px;
+}
+
+
+#dispatch-wrapper #dispatch-jobs fieldset{
+	border:1px solid #c2c2c2;
+	height:210px;
+}
+
+#dispatch-wrapper #dispatch-jobs fieldset legend{
+	margin-left:10px;
+	padding:0px 5px;
+	color:#666666;
+	font-weight:bold;
+	font-size:12px;
+}
+
+
+/*================= RECENT JOBS ========================*/
+
+#dispatch-jobs{
+	width:975px;
+	height:250px;
+	float:left;
+}
+
+.dispatch_jobs_list{
+	width:960px;
+	height:170px;
+	margin:10px auto;
+	overflow-x:auto;
+	overflow-y:hidden;
+}
+
+.dispatch_jobs_list table thead td{
+	
+}
+
+/*================== BUTTONS ======================*/
+.actions{
+	width:29px;
+	height:15px;
+	background:url(../images/actions_button.png) no-repeat;
+}
+
+.plot{
+	display:block;
+	width:38px;
+	height:13px;
+	background:url(../images/plot_driver.png) no-repeat;
+}
+
+.tablescroll{
+}
+
+.tablescroll_wrapper{
+}
+
+.actions_menu{
+	
+}
+
+.actions_menu li:hover ul{
+	display:block;
+}
+
+.actions_menu li ul{
+	border-top:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+
+.actions_menu li ul li{
+	text-align:left; 
+	background-color:#fff;
+	
+	border-bottom:1px solid #ccc;
+}
+
+.actions_menu li ul li a{
+	display:block;
+	width:100px;
+	text-decoration:none;
+	padding:5px;
+	color:#616161;
+}
+
+.actions_menu li ul li:hover{
+	text-decoration:none;
+	background-color:#eee;
+}
+
+/*============== Plot Driver Window ================*/
+#plot_driver_window{
+}
+
+#plot_driver_title{
+}
+
+#plot_driver_window fieldset{
+	width:350px; margin:5px auto;
+}
+
+
+
+.vmenu{position:absolute; display:none;}
+/*
+.vmenu{border:1px solid #aaa;position:absolute;background:#fff;	display:none;font-size:0.75em;}
+.vmenu .first_li span{width:100px;display:block;padding:5px 10px;cursor:pointer}
+.vmenu .inner_li{display:none;margin-left:120px;position:absolute;border:1px solid #aaa;
+border-left:1px solid #ccc;margin-top:-28px;background:#fff;}
+.vmenu .sep_li{border-top: 1px ridge #aaa;margin:5px 0}
+.vmenu .fill_title{font-size:11px;font-weight:bold;/height:15px;/overflow:hidden;word-wrap:break-word;}
+*/

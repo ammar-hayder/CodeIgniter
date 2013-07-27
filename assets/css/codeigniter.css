@@ -1,0 +1,137 @@
+::selection{ background-color: #E13300; color: white; }
+	::moz-selection{ background-color: #E13300; color: white; }
+	::webkit-selection{ background-color: #E13300; color: white; }
+
+	body {
+		background-color: #fff;
+		margin: 40px;
+		font: 13px/20px normal Helvetica, Arial, sans-serif;
+		color: #4F5155;
+	}
+
+	a {
+		color: #003399;
+		background-color: transparent;
+		font-weight: normal;
+	}
+
+	h1 {
+		color: #444;
+		background-color: transparent;
+		border-bottom: 1px solid #D0D0D0;
+		font-size: 19px;
+		font-weight: normal;
+		margin: 0 0 14px 0;
+		padding: 14px 15px 10px 15px;
+	}
+
+	code {
+		font-family: Consolas, Monaco, Courier New, Courier, monospace;
+		font-size: 12px;
+		background-color: #f9f9f9;
+		border: 1px solid #D0D0D0;
+		color: #002166;
+		display: block;
+		margin: 14px 0 14px 0;
+		padding: 12px 10px 12px 10px;
+	}
+
+	#body{
+		margin: 0 15px 0 15px;
+	}
+	
+	p.footer{
+		text-align: right;
+		font-size: 11px;
+		border-top: 1px solid #D0D0D0;
+		line-height: 32px;
+		padding: 0 10px 0 10px;
+		margin: 20px 0 0 0;
+	}
+	
+	#container{
+		margin: 10px;
+		border: 1px solid #D0D0D0;
+		-webkit-box-shadow: 0 0 8px #D0D0D0;
+	}
+	#admin_container{
+		margin: 10px auto;
+		border: 1px solid #D0D0D0;
+		-webkit-box-shadow: 0 0 8px #D0D0D0;
+		width:400px;
+		align:center;
+	}
+	/*============================ BASIC FORM ============================*/
+.basic_form {
+	margin:0px auto;
+	text-align:left;
+}
+
+.basic_form table td{
+	padding:2px;
+}
+
+.basic_form fieldset {
+	margin: 1.5em auto 0 auto;
+	padding: 10px;
+	border:1px solid #c2c2c2;
+	position: relative;
+	width:700px;
+
+	font-size:11px;
+	overflow:hidden;
+}
+
+.basic_form legend {
+	margin-left: 20px;
+	color:#616161;
+	padding:0px 5px 0 5px;
+	font-weight: bold;
+	font-size:13px;
+}
+
+.basic_form label {
+	display: block;
+	margin-right: 1em;
+}
+
+.basic_form .red {
+	color:#F00;
+	font-size:10px;
+
+}
+
+.basic_form fieldset .textbox, .basic_form fieldset .selectbox {
+    border: 1px solid #b6b6b6;
+	color:#000;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	padding:3px;
+}
+
+.basic_form .btn{
+	margin:5px 0px 5px 5px;
+	padding:0px 5px 1px 5px;
+	height:29px;
+	color:#5b5b5b;
+	font-size:14px;
+	font-weight:bold;
+	border:1px solid #94c7e8;
+	text-decoration:none;
+	background:url(../images/blue_button_bg.png) repeat-x bottom left;
+}
+.basic_form .btn:hover{
+	color:#323232;
+	background:url(../images/blue_button_bg.png) repeat-x top left;
+}
+
+
+.buttons_container{
+	margin:10px 0px;
+}
+
+span.error{
+	color:#FF3540;
+	font-size:11px;
+	padding-left:5px;
+}
