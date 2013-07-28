@@ -1,10 +1,13 @@
 CodeIgniter
 ===========
 
-An application in codeigniter framework
-For installation the Application
-1-Import the codeigniter.sql file into database
-2-Copy all the file in your working directory
+An application in codeigniter framework.
+
+For installation the Application.
+
+1-Import the codeigniter.sql file into database.
+
+2-Copy all the file in your working directory.
 
 Direction-
 
