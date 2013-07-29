@@ -11,7 +11,7 @@
 	<script src="<?=base_url('assets/js/jquery.magnific-popup.js')?>"></script>
 	<script type="text/javascript">
 	$(function() {
-		$(".cart_1").magnificPopup({
+		$(".cart_1, .cart_2, .cart_2").magnificPopup({
 										
 										type: 'ajax',
 										ajax: { setting: {
